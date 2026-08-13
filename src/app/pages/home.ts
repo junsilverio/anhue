@@ -21,9 +21,7 @@ import { CtaBannerComponent } from '../shared/cta-banner';
         <p class="hero-sub">{{ company.slogan }}</p>
         <div class="hero-actions">
           <a routerLink="/services" class="btn btn-primary">Our Services <app-icon name="arrow" class="btn-ic" /></a>
-          <a routerLink="/projects" class="btn btn-ghost">
-            <span class="play"><app-icon name="arrow" /></span> Watch Overview
-          </a>
+          <a routerLink="/projects" class="btn btn-ghost">Explore Our Work <app-icon name="arrow" class="btn-ic" /></a>
         </div>
       </div>
 
@@ -143,12 +141,6 @@ import { CtaBannerComponent } from '../shared/cta-banner';
     .hero-sub { margin-top: 22px; font-size: 1.2rem; color: var(--grey-300); max-width: 460px; }
     .hero-actions { display: flex; gap: 16px; margin-top: 36px; flex-wrap: wrap; }
     .btn-ic { width: 18px; height: 18px; }
-    .play {
-      width: 30px; height: 30px; border-radius: 50%;
-      display: grid; place-items: center;
-      background: rgba(255, 255, 255, 0.12);
-    }
-    .play app-icon { width: 15px; height: 15px; }
 
     .info-strip {
       position: relative;
